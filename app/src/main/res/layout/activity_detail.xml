@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:background="@color/black"
+    android:layout_gravity="center"
+    tools:context=".ui.DetailActivity"
+    android:elevation="10dp"
+
+    app:cardCornerRadius="10dp"
+    >
+    <LinearLayout
+        android:background="#6A6868"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/filmImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            ></ImageView>
+
+           <TextView
+               android:id="@+id/filmName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="FILM NAME"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="15dp"></TextView>
+           <TextView
+               android:id="@+id/filmRating"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:text="RATING:"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="15dp"
+               ></TextView>
+
+        <TextView
+            android:id="@+id/filmLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LANGUAGE"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"></TextView>
+        <TextView
+            android:id="@+id/filmType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPE"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"></TextView>
+        <TextView
+            android:id="@+id/filmSummary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Summary"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"></TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
